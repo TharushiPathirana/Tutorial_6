@@ -5,14 +5,14 @@ object Q1_cipher {
       var newShift = shift%26
       val newCharacter = (character + newShift).toChar
       if (character >= 'a' && character <= 'z') {
-        if(newCharacter <= 'a' || newCharacter >= 'z'){
+        if(newCharacter < 'a' || newCharacter > 'z'){
           newShift = newShift -('z'-character)-1
           answer += ('a'+newShift).toChar
         }
         else answer += newCharacter
       }
       else if (character >= 'A' && character <= 'Z'){
-        if (newCharacter <= 'A' || newCharacter >= 'Z') {
+        if (newCharacter < 'A' || newCharacter > 'Z') {
           newShift = newShift - ('Z' - character) - 1
           answer += ('A' + newShift).toChar
         }
