@@ -1,0 +1,159 @@
+[debug] > Exec(reload, None, None)
+[debug] > Exec(sbtStashOnFailure, None, None)
+[debug] > Exec(onFailure loadFailed, None, None)
+[debug] > Exec(loadp, None, None)
+[info] welcome to sbt 1.8.3 (Oracle Corporation Java 20.0.1)
+[debug]             Load.loadUnit: plugins took 35.9585ms
+[debug]             Load.loadUnit: defsScala took 0.0032ms
+[debug] [Loading] Scanning directory C:\Users\user\.sbt\1.0\plugins
+[debug] [Loading] Found non-root projects 
+[debug] [Loading] Done in C:\Users\user\.sbt\1.0\plugins, returning: ()
+[debug] deducing auto plugins based on known facts Set(Atom(sbt.plugins.CorePlugin)) and clauses Clauses(Clause(Atom(sbt.plugins.JvmPlugin),Set(Atom(sbt.plugins.IvyPlugin)))
+[debug] Clause(Atom(sbt.ScriptedPlugin),Set(Atom(sbt.plugins.JvmPlugin)))
+[debug] Clause(Atom(sbt.plugins.SbtPlugin),Set(Atom(sbt.ScriptedPlugin)))
+[debug] Clause(Atom(sbt.plugins.SemanticdbPlugin),Set(Atom(sbt.plugins.JvmPlugin)))
+[debug] Clause(Atom(sbt.plugins.JUnitXmlReportPlugin),Set(Atom(sbt.plugins.JvmPlugin)))
+[debug] Clause(Atom(sbt.plugins.MiniDependencyTreePlugin),Set(Atom(sbt.plugins.JvmPlugin)))
+[debug] Clause(Atom(sbt.plugins.CorePlugin),Set(Atom(sbt.plugins.IvyPlugin)))
+[debug] Clause(Atom(sbt.plugins.IvyPlugin),Set(Atom(sbt.plugins.JvmPlugin)))
+[debug] Clause(Atom(sbt.plugins.JvmPlugin),Set(Atom(sbt.plugins.SemanticdbPlugin)))
+[debug] Clause(Atom(sbt.plugins.JvmPlugin),Set(Atom(sbt.plugins.JUnitXmlReportPlugin)))
+[debug] Clause(Atom(sbt.plugins.CorePlugin),Set(Atom(sbt.plugins.Giter8TemplatePlugin)))
+[debug] Clause(Atom(sbt.plugins.JvmPlugin),Set(Atom(sbt.plugins.MiniDependencyTreePlugin))))
+[debug]   :: deduced result: Matched(sbt.plugins.CorePlugin,sbt.plugins.Giter8TemplatePlugin,sbt.plugins.IvyPlugin,sbt.plugins.JvmPlugin,sbt.plugins.MiniDependencyTreePlugin,sbt.plugins.JUnitXmlReportPlugin,sbt.plugins.SemanticdbPlugin)
+[debug] Plugins.deducer#function took 4.3455 ms
+[debug]                 Load.resolveProject(global-plugins) took 1.771ms
+[debug]               Load.loadTransitive: finalizeProject(Project(id global-plugins, base: C:\Users\user\.sbt\1.0\plugins, plugins: List(<none>))) took 6.69ms
+[debug] [Loading] Done in C:\Users\user\.sbt\1.0\plugins, returning: (global-plugins)
+[debug]             Load.loadUnit: loadedProjectsRaw took 7.8711ms
+[debug]             Load.loadUnit: cleanEvalClasses took 0.0162ms
+[debug]           Load.loadUnit(file:/C:/Users/user/.sbt/1.0/plugins/, ...) took 44.877ms
+[debug]         Load.apply: load took 47.4252ms
+[debug]         Load.apply: resolveProjects took 0.1979ms
+[debug]         Load.apply: finalTransforms took 13.3136ms
+[debug]         Load.apply: config.delegates took 0.6803ms
+[debug]         Load.apply: Def.make(settings)... took 90.1771ms
+[debug]         Load.apply: structureIndex took 35.3708ms
+[debug]         Load.apply: mkStreams took 0.002ms
+[info] loading global plugins from C:\Users\user\.sbt\1.0\plugins
+[debug] Running task... Cancel: Signal, check cycles: false, forcegc: true
+[debug]       Load.defaultLoad until apply took 615.0006ms
+[debug]                 Load.loadUnit: plugins took 43.114ms
+[debug]                 Load.loadUnit: defsScala took 0.0036ms
+[debug] [Loading] Scanning directory C:\Users\user\Desktop\JavaScript\Tutorial 6\project
+[debug]                   Load.loadUnit: mkEval took 0.2626ms
+[debug] [Loading] Found non-root projects 
+[debug] [Loading] Done in C:\Users\user\Desktop\JavaScript\Tutorial 6\project, returning: ()
+[debug] deducing auto plugins based on known facts Set(Atom(sbt.plugins.CorePlugin)) and clauses Clauses(Clause(Atom(sbt.plugins.JvmPlugin),Set(Atom(sbt.plugins.IvyPlugin)))
+[debug] Clause(Atom(sbt.ScriptedPlugin),Set(Atom(sbt.plugins.JvmPlugin)))
+[debug] Clause(Atom(sbt.plugins.SbtPlugin),Set(Atom(sbt.ScriptedPlugin)))
+[debug] Clause(Atom(sbt.plugins.SemanticdbPlugin),Set(Atom(sbt.plugins.JvmPlugin)))
+[debug] Clause(Atom(sbt.plugins.JUnitXmlReportPlugin),Set(Atom(sbt.plugins.JvmPlugin)))
+[debug] Clause(Atom(sbt.plugins.MiniDependencyTreePlugin),Set(Atom(sbt.plugins.JvmPlugin)))
+[debug] Clause(Atom(sbt.plugins.CorePlugin),Set(Atom(sbt.plugins.IvyPlugin)))
+[debug] Clause(Atom(sbt.plugins.IvyPlugin),Set(Atom(sbt.plugins.JvmPlugin)))
+[debug] Clause(Atom(sbt.plugins.JvmPlugin),Set(Atom(sbt.plugins.SemanticdbPlugin)))
+[debug] Clause(Atom(sbt.plugins.JvmPlugin),Set(Atom(sbt.plugins.JUnitXmlReportPlugin)))
+[debug] Clause(Atom(sbt.plugins.CorePlugin),Set(Atom(sbt.plugins.Giter8TemplatePlugin)))
+[debug] Clause(Atom(sbt.plugins.JvmPlugin),Set(Atom(sbt.plugins.MiniDependencyTreePlugin))))
+[debug]   :: deduced result: Matched(sbt.plugins.CorePlugin,sbt.plugins.Giter8TemplatePlugin,sbt.plugins.IvyPlugin,sbt.plugins.JvmPlugin,sbt.plugins.MiniDependencyTreePlugin,sbt.plugins.JUnitXmlReportPlugin,sbt.plugins.SemanticdbPlugin)
+[debug] Plugins.deducer#function took 2.2927 ms
+[info] loading settings for project tutorial-6-build from idea.sbt ...
+[debug]                     Load.resolveProject(tutorial-6-build) took 2.1626ms
+[debug]                   Load.loadTransitive: finalizeProject(Project(id tutorial-6-build, base: C:\Users\user\Desktop\JavaScript\Tutorial 6\project, plugins: List(<none>))) took 5.265ms
+[debug] [Loading] Done in C:\Users\user\Desktop\JavaScript\Tutorial 6\project, returning: (tutorial-6-build)
+[debug]                 Load.loadUnit: loadedProjectsRaw took 41.2168ms
+[debug]                 Load.loadUnit: cleanEvalClasses took 4.56ms
+[debug]               Load.loadUnit(file:/C:/Users/user/Desktop/JavaScript/Tutorial%206/project/, ...) took 90.0749ms
+[debug]             Load.apply: load took 92.0597ms
+[debug]             Load.apply: resolveProjects took 0.1474ms
+[debug]             Load.apply: finalTransforms took 19.4996ms
+[debug]             Load.apply: config.delegates took 0.5162ms
+[debug]             Load.apply: Def.make(settings)... took 85.9201ms
+[debug]             Load.apply: structureIndex took 32.8138ms
+[debug]             Load.apply: mkStreams took 0.0028ms
+[info] loading project definition from C:\Users\user\Desktop\JavaScript\Tutorial 6\project
+[debug] Running task... Cancel: Signal, check cycles: false, forcegc: true
+[warn] Unrecognized repository Scala Plugin Bundled Repository, ignoring it
+[warn] Unrecognized repository Scala Plugin Bundled Repository, ignoring it
+[warn] 
+[warn] 	Note: Some unresolved dependencies have extra attributes.  Check that these dependencies exist with the requested attributes.
+[warn] 		org.jetbrains.scala:sbt-structure-extractor:2023.1.0 (sbtVersion=1.0, scalaVersion=2.12)
+[warn] 		org.jetbrains.scala:sbt-idea-shell:2021.1.0 (sbtVersion=1.0, scalaVersion=2.12)
+[warn] 		org.jetbrains.scala:sbt-idea-compiler-indices:1.0.13 (sbtVersion=1.0, scalaVersion=2.12)
+[warn] 
+[warn] 	Note: Unresolved dependencies path:
+[error] sbt.librarymanagement.ResolveException: Error downloading org.jetbrains.scala:sbt-structure-extractor;sbtVersion=1.0;scalaVersion=2.12:2023.1.0
+[error]   Not found
+[error]   Not found
+[error]   download error: Caught java.net.UnknownHostException (repo1.maven.org) while downloading https://repo1.maven.org/maven2/org/jetbrains/scala/sbt-structure-extractor_2.12_1.0/2023.1.0/sbt-structure-extractor-2023.1.0.pom
+[error]   not found: C:\Users\user\.ivy2\localorg.jetbrains.scala\sbt-structure-extractor\scala_2.12\sbt_1.0\2023.1.0\ivys\ivy.xml
+[error]   download error: Caught java.net.UnknownHostException (repo.scala-sbt.org) while downloading https://repo.scala-sbt.org/scalasbt/sbt-plugin-releases/org.jetbrains.scala/sbt-structure-extractor/scala_2.12/sbt_1.0/2023.1.0/ivys/ivy.xml
+[error]   download error: Caught java.net.UnknownHostException (repo.typesafe.com) while downloading https://repo.typesafe.com/typesafe/ivy-releases/org.jetbrains.scala/sbt-structure-extractor/scala_2.12/sbt_1.0/2023.1.0/ivys/ivy.xml
+[error] Error downloading org.jetbrains.scala:sbt-idea-shell;sbtVersion=1.0;scalaVersion=2.12:2021.1.0
+[error]   Not found
+[error]   Not found
+[error]   download error: Caught java.net.UnknownHostException (repo1.maven.org) while downloading https://repo1.maven.org/maven2/org/jetbrains/scala/sbt-idea-shell_2.12_1.0/2021.1.0/sbt-idea-shell-2021.1.0.pom
+[error]   not found: C:\Users\user\.ivy2\localorg.jetbrains.scala\sbt-idea-shell\scala_2.12\sbt_1.0\2021.1.0\ivys\ivy.xml
+[error]   download error: Caught java.net.UnknownHostException (repo.scala-sbt.org) while downloading https://repo.scala-sbt.org/scalasbt/sbt-plugin-releases/org.jetbrains.scala/sbt-idea-shell/scala_2.12/sbt_1.0/2021.1.0/ivys/ivy.xml
+[error]   download error: Caught java.net.UnknownHostException (repo.typesafe.com) while downloading https://repo.typesafe.com/typesafe/ivy-releases/org.jetbrains.scala/sbt-idea-shell/scala_2.12/sbt_1.0/2021.1.0/ivys/ivy.xml
+[error] Error downloading org.jetbrains.scala:sbt-idea-compiler-indices;sbtVersion=1.0;scalaVersion=2.12:1.0.13
+[error]   Not found
+[error]   Not found
+[error]   download error: Caught java.net.UnknownHostException (repo1.maven.org) while downloading https://repo1.maven.org/maven2/org/jetbrains/scala/sbt-idea-compiler-indices_2.12_1.0/1.0.13/sbt-idea-compiler-indices-1.0.13.pom
+[error]   not found: C:\Users\user\.ivy2\localorg.jetbrains.scala\sbt-idea-compiler-indices\scala_2.12\sbt_1.0\1.0.13\ivys\ivy.xml
+[error]   download error: Caught java.net.UnknownHostException (repo.scala-sbt.org) while downloading https://repo.scala-sbt.org/scalasbt/sbt-plugin-releases/org.jetbrains.scala/sbt-idea-compiler-indices/scala_2.12/sbt_1.0/1.0.13/ivys/ivy.xml
+[error]   download error: Caught java.net.UnknownHostException (repo.typesafe.com) while downloading https://repo.typesafe.com/typesafe/ivy-releases/org.jetbrains.scala/sbt-idea-compiler-indices/scala_2.12/sbt_1.0/1.0.13/ivys/ivy.xml
+[error] 	at lmcoursier.CoursierDependencyResolution.unresolvedWarningOrThrow(CoursierDependencyResolution.scala:344)
+[error] 	at lmcoursier.CoursierDependencyResolution.$anonfun$update$38(CoursierDependencyResolution.scala:313)
+[error] 	at scala.util.Either$LeftProjection.map(Either.scala:573)
+[error] 	at lmcoursier.CoursierDependencyResolution.update(CoursierDependencyResolution.scala:313)
+[error] 	at sbt.librarymanagement.DependencyResolution.update(DependencyResolution.scala:60)
+[error] 	at sbt.internal.LibraryManagement$.resolve$1(LibraryManagement.scala:59)
+[error] 	at sbt.internal.LibraryManagement$.$anonfun$cachedUpdate$12(LibraryManagement.scala:133)
+[error] 	at sbt.util.Tracked$.$anonfun$lastOutput$1(Tracked.scala:73)
+[error] 	at sbt.internal.LibraryManagement$.$anonfun$cachedUpdate$20(LibraryManagement.scala:146)
+[error] 	at scala.util.control.Exception$Catch.apply(Exception.scala:228)
+[error] 	at sbt.internal.LibraryManagement$.$anonfun$cachedUpdate$11(LibraryManagement.scala:146)
+[error] 	at sbt.internal.LibraryManagement$.$anonfun$cachedUpdate$11$adapted(LibraryManagement.scala:127)
+[error] 	at sbt.util.Tracked$.$anonfun$inputChangedW$1(Tracked.scala:219)
+[error] 	at sbt.internal.LibraryManagement$.cachedUpdate(LibraryManagement.scala:160)
+[error] 	at sbt.Classpaths$.$anonfun$updateTask0$1(Defaults.scala:3687)
+[error] 	at scala.Function1.$anonfun$compose$1(Function1.scala:49)
+[error] 	at sbt.internal.util.$tilde$greater.$anonfun$$u2219$1(TypeFunctions.scala:62)
+[error] 	at sbt.std.Transform$$anon$4.work(Transform.scala:68)
+[error] 	at sbt.Execute.$anonfun$submit$2(Execute.scala:282)
+[error] 	at sbt.internal.util.ErrorHandling$.wideConvert(ErrorHandling.scala:23)
+[error] 	at sbt.Execute.work(Execute.scala:291)
+[error] 	at sbt.Execute.$anonfun$submit$1(Execute.scala:282)
+[error] 	at sbt.ConcurrentRestrictions$$anon$4.$anonfun$submitValid$1(ConcurrentRestrictions.scala:265)
+[error] 	at sbt.CompletionService$$anon$2.call(CompletionService.scala:64)
+[error] 	at java.base/java.util.concurrent.FutureTask.run(FutureTask.java:317)
+[error] 	at java.base/java.util.concurrent.Executors$RunnableAdapter.call(Executors.java:577)
+[error] 	at java.base/java.util.concurrent.FutureTask.run(FutureTask.java:317)
+[error] 	at java.base/java.util.concurrent.ThreadPoolExecutor.runWorker(ThreadPoolExecutor.java:1144)
+[error] 	at java.base/java.util.concurrent.ThreadPoolExecutor$Worker.run(ThreadPoolExecutor.java:642)
+[error] 	at java.base/java.lang.Thread.run(Thread.java:1623)
+[error] (update) sbt.librarymanagement.ResolveException: Error downloading org.jetbrains.scala:sbt-structure-extractor;sbtVersion=1.0;scalaVersion=2.12:2023.1.0
+[error]   Not found
+[error]   Not found
+[error]   download error: Caught java.net.UnknownHostException (repo1.maven.org) while downloading https://repo1.maven.org/maven2/org/jetbrains/scala/sbt-structure-extractor_2.12_1.0/2023.1.0/sbt-structure-extractor-2023.1.0.pom
+[error]   not found: C:\Users\user\.ivy2\localorg.jetbrains.scala\sbt-structure-extractor\scala_2.12\sbt_1.0\2023.1.0\ivys\ivy.xml
+[error]   download error: Caught java.net.UnknownHostException (repo.scala-sbt.org) while downloading https://repo.scala-sbt.org/scalasbt/sbt-plugin-releases/org.jetbrains.scala/sbt-structure-extractor/scala_2.12/sbt_1.0/2023.1.0/ivys/ivy.xml
+[error]   download error: Caught java.net.UnknownHostException (repo.typesafe.com) while downloading https://repo.typesafe.com/typesafe/ivy-releases/org.jetbrains.scala/sbt-structure-extractor/scala_2.12/sbt_1.0/2023.1.0/ivys/ivy.xml
+[error] Error downloading org.jetbrains.scala:sbt-idea-shell;sbtVersion=1.0;scalaVersion=2.12:2021.1.0
+[error]   Not found
+[error]   Not found
+[error]   download error: Caught java.net.UnknownHostException (repo1.maven.org) while downloading https://repo1.maven.org/maven2/org/jetbrains/scala/sbt-idea-shell_2.12_1.0/2021.1.0/sbt-idea-shell-2021.1.0.pom
+[error]   not found: C:\Users\user\.ivy2\localorg.jetbrains.scala\sbt-idea-shell\scala_2.12\sbt_1.0\2021.1.0\ivys\ivy.xml
+[error]   download error: Caught java.net.UnknownHostException (repo.scala-sbt.org) while downloading https://repo.scala-sbt.org/scalasbt/sbt-plugin-releases/org.jetbrains.scala/sbt-idea-shell/scala_2.12/sbt_1.0/2021.1.0/ivys/ivy.xml
+[error]   download error: Caught java.net.UnknownHostException (repo.typesafe.com) while downloading https://repo.typesafe.com/typesafe/ivy-releases/org.jetbrains.scala/sbt-idea-shell/scala_2.12/sbt_1.0/2021.1.0/ivys/ivy.xml
+[error] Error downloading org.jetbrains.scala:sbt-idea-compiler-indices;sbtVersion=1.0;scalaVersion=2.12:1.0.13
+[error]   Not found
+[error]   Not found
+[error]   download error: Caught java.net.UnknownHostException (repo1.maven.org) while downloading https://repo1.maven.org/maven2/org/jetbrains/scala/sbt-idea-compiler-indices_2.12_1.0/1.0.13/sbt-idea-compiler-indices-1.0.13.pom
+[error]   not found: C:\Users\user\.ivy2\localorg.jetbrains.scala\sbt-idea-compiler-indices\scala_2.12\sbt_1.0\1.0.13\ivys\ivy.xml
+[error]   download error: Caught java.net.UnknownHostException (repo.scala-sbt.org) while downloading https://repo.scala-sbt.org/scalasbt/sbt-plugin-releases/org.jetbrains.scala/sbt-idea-compiler-indices/scala_2.12/sbt_1.0/1.0.13/ivys/ivy.xml
+[error]   download error: Caught java.net.UnknownHostException (repo.typesafe.com) while downloading https://repo.typesafe.com/typesafe/ivy-releases/org.jetbrains.scala/sbt-idea-compiler-indices/scala_2.12/sbt_1.0/1.0.13/ivys/ivy.xml
+[debug] > Exec(loadFailed, None, None)
+[warn] Project loading failed: (r)etry, (q)uit, (l)ast, or (i)gnore? (default: r)
